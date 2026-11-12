@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="PortalCore: yağmurlu bir şehirde yaşam, SilkLegend MMORPG ve x32dbg ile tersine mühendislik. www.vsro.org için PortalDark tarafından hazırlanmıştır." />
+    <meta name="theme-color" content="#06070b" />
+    <title>PortalCore | www.vsro.org | Prepared by PortalDark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      /* Static boot screen shown before the scripts run; src/ui/BootLoader.ts takes it over. */
+      html, body { margin: 0; height: 100%; background: #06070b; }
+      #pc-boot { position: fixed; inset: 0; z-index: 10000; display: grid; place-items: center;
+        background: radial-gradient(ellipse at 50% 42%, #141823 0%, #07080c 62%); color: #f2d98f;
+        font: 700 34px/1 Cinzel, Georgia, serif; letter-spacing: 0.08em; }
+      #pc-boot .pc-boot-static { display: flex; flex-direction: column; align-items: center; gap: 18px; }
+      #pc-boot .pc-boot-static i { display: block; width: 104px; height: 104px; border-radius: 50%;
+        background: #15120b url('assets/ui/mmo_hud_atlas.webp') no-repeat;
+        background-size: 484.07px auto; background-position: -191.93px -188.15px;
+        box-shadow: 0 0 0 1px rgba(242, 217, 143, 0.35); }
+    </style>
+    <script type="module" crossorigin src="./chunks/index-BDmZE-El.js"></script>
+    <link rel="stylesheet" crossorigin href="./chunks/index-DAkfhnah.css">
+  </head>
+  <body>
+    <div id="pc-boot"><div class="pc-boot-static"><i></i><span>PortalCore</span></div></div>
+    <div id="app"></div>
+  </body>
+</html>
